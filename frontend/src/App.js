@@ -4,8 +4,8 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import Hero from './sections/Hero';
-import Problem from './sections/Problem';
-import Features from './sections/Features';
+import Problem from './sections/ProblemTranslated';
+import Features from './sections/FeaturesTranslated';
 import AdvancedFeatures from './sections/AdvancedFeatures';
 import Benefits from './sections/Benefits';
 import Comparison from './sections/Comparison';
@@ -13,7 +13,7 @@ import CaseStudy from './sections/CaseStudy';
 import Timeline from './sections/Timeline';
 import FAQ from './sections/FAQ';
 import CTA from './sections/CTA';
-import Footer from './sections/Footer';
+import Footer from './sections/FooterTranslated';
 
 function App() {
   useEffect(() => {
