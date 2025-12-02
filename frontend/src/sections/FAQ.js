@@ -15,16 +15,28 @@ export default function FAQ() {
       answer: 'Investimento personalizado conforme suas necessidades. ROI médio: 10x no primeiro ano. Na demo, calculamos quanto você economiza + quanto ganha com conversão maior.',
     },
     {
-      question: '⏱️ Quanto tempo demora?',
-      answer: 'Implementação típica: 7-10 dias. Você acompanha tudo pelo Portal de Implementação — progresso visual, sempre transparente. Zero no escuro.',
+      question: '⏱️ É difícil de implementar?',
+      answer: 'Implementação em 7-10 dias. Nós fazemos TUDO: integrações, treinamento, testes. Você acompanha pelo Portal e só aprova quando estiver perfeito. Zero trabalho técnico da sua parte.',
+    },
+    {
+      question: '🤔 E se ZENYA não souber responder?',
+      answer: 'ZENYA detecta automaticamente quando não sabe responder algo e transfere INSTANTANEAMENTE para um humano da sua equipe, com todo o contexto da conversa preservado. Zero frustração para o cliente.',
     },
     {
       question: '📞 ZENYA também atende ligações?',
       answer: 'Sim! ZENYA não apenas responde mensagens de WhatsApp, mas também atende ligações telefônicas com voz natural. Isso significa cobertura completa: seu cliente pode escolher como quer se comunicar.',
     },
     {
+      question: '🗓️ Como funciona a integração com minha agenda?',
+      answer: 'ZENYA se conecta ao Google Calendar, Microsoft Outlook ou seu sistema de gestão. Agenda direto, sem duplicidade, sem erro. Você vê todos os compromissos em um só lugar.',
+    },
+    {
       question: '🔒 Meus dados estão seguros?',
       answer: 'Totalmente. ZENYA é 100% LGPD compliant. Todos os dados são criptografados, armazenados de forma segura e você tem controle total sobre eles. Conformidade com legislação brasileira garantida.',
+    },
+    {
+      question: '📊 Vou ter controle do que está acontecendo?',
+      answer: 'SIM! Dashboard completo mostra em tempo real: conversas ativas, agendamentos, taxa de conversão, horários de pico, performance da IA. Nada de "caixa preta". Controle total.',
     },
   ];
 
