@@ -97,7 +97,7 @@ export default function Hero() {
               className="group px-8 py-4 bg-gradient-to-r from-green-400 to-green-600 text-white font-bold rounded-xl shadow-xl shadow-green-500/30 hover:shadow-2xl hover:shadow-green-500/40 hover:-translate-y-1 transition-all duration-300 text-center text-base sm:text-lg"
             >
               <span className="flex items-center justify-center gap-2">
-                💬 Falar com ZENYA
+                💬 {t('hero.cta1')}
               </span>
             </a>
             <a
@@ -106,7 +106,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white border-2 border-gray-300 text-gray-700 font-bold rounded-xl hover:border-cyan-500 hover:text-cyan-600 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center text-base sm:text-lg"
             >
-              📅 Agendar Reunião
+              📅 {t('hero.cta2')}
             </a>
           </motion.div>
         </div>
