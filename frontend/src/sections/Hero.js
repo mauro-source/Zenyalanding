@@ -42,9 +42,9 @@ export default function Hero() {
             transition={{ delay: 0.3 }}
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-gray-900"
           >
-            Sua Melhor Funcionária Trabalha 24h,{' '}
+            Enquanto Você Dorme,{' '}
             <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent">
-              Não Tira Férias e Custa 10x Menos.
+              ZENYA Atende, Agenda e Vende.
             </span>
           </motion.h1>
 
@@ -56,7 +56,7 @@ export default function Hero() {
           >
             <strong className="text-gray-800">64% dos contatos chegam fora do horário comercial.</strong>
             <br className="hidden sm:block" />
-            ZENYA atende todos. Agenda. E mostra quanto você lucrou.
+            ZENYA atende todos. Agenda direto no seu sistema. Zero duplicidade, zero erro.
           </motion.h2>
 
           {/* Feature Pills */}
