@@ -71,15 +71,15 @@ export default function Hero() {
           >
             <div className="flex flex-col items-center text-center">
               <div className="text-3xl sm:text-4xl mb-2">🧠</div>
-              <div className="text-sm sm:text-base font-semibold text-gray-700">Contextual</div>
+              <div className="text-sm sm:text-base font-semibold text-gray-700">{t('hero.feature1')}</div>
             </div>
             <div className="flex flex-col items-center text-center">
               <div className="text-3xl sm:text-4xl mb-2">📊</div>
-              <div className="text-sm sm:text-base font-semibold text-gray-700">Dashboard</div>
+              <div className="text-sm sm:text-base font-semibold text-gray-700">{t('hero.feature2')}</div>
             </div>
             <div className="flex flex-col items-center text-center">
               <div className="text-3xl sm:text-4xl mb-2">⚡</div>
-              <div className="text-sm sm:text-base font-semibold text-gray-700">&lt;5min</div>
+              <div className="text-sm sm:text-base font-semibold text-gray-700">{t('hero.feature3')}</div>
             </div>
           </motion.div>
 
