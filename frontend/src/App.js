@@ -5,6 +5,7 @@ import WhatsAppFloat from './components/WhatsAppFloat';
 import Hero from './sections/Hero';
 import Problem from './sections/Problem';
 import Features from './sections/Features';
+import Benefits from './sections/Benefits';
 import CaseStudy from './sections/CaseStudy';
 import Timeline from './sections/Timeline';
 import FAQ from './sections/FAQ';
