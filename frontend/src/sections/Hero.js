@@ -115,20 +115,20 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="relative flex items-center justify-center"
         >
-          <div className="relative w-full max-w-2xl aspect-square">
-            {/* Placeholder for dashboard image */}
-            <div className="w-full h-full bg-gradient-to-br from-cyan-100/50 to-purple-100/50 rounded-3xl border-2 border-cyan-200/50 shadow-2xl flex items-center justify-center overflow-hidden">
+          <div className="relative w-full max-w-2xl">
+            {/* Dashboard image - full width, maintains aspect ratio */}
+            <div className="relative rounded-3xl border-2 border-cyan-200/50 shadow-2xl overflow-hidden bg-white">
               <img
                 src="/zenya-dashboard.png"
                 alt="Dashboard ZENYA"
-                className="w-full h-full object-cover"
+                className="w-full h-auto"
                 loading="eager"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.nextSibling.style.display = 'flex';
                 }}
               />
-              <div className="flex items-center justify-center text-3xl sm:text-4xl text-gray-400" style={{ display: 'none' }}>
+              <div className="hidden items-center justify-center text-3xl sm:text-4xl text-gray-400 p-20">
                 📊 Dashboard + 💬 WhatsApp
               </div>
             </div>
