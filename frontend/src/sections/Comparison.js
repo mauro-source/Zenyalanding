@@ -113,7 +113,7 @@ export default function Comparison() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/5512992196495?text=Ol%C3%A1!%20Quero%20ver%20a%20diferen%C3%A7a%20da%20ZENYA%20%F0%9F%9A%80"
+                href="https://wa.me/5512992196495?text=Oi!%20Quero%20ver%20a%20diferenca%20da%20ZENYA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white text-cyan-600 font-bold rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
