@@ -132,27 +132,30 @@ export default function Navbar() {
               onClick={() => scrollToSection('como-funciona')}
               className="block w-full text-left px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-lg font-medium transition-colors"
             >
-              Como Funciona
+              {t('nav.howItWorks')}
             </button>
             <button
               onClick={() => scrollToSection('resultados')}
               className="block w-full text-left px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-lg font-medium transition-colors"
             >
-              Resultados
+              {t('nav.results')}
             </button>
             <button
               onClick={() => scrollToSection('faq')}
               className="block w-full text-left px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-lg font-medium transition-colors"
             >
-              FAQ
+              {t('nav.faq')}
             </button>
+            <div className="px-4 py-3">
+              <LanguageSelector />
+            </div>
             <a
               href="https://calendly.com/mauro-sparkleai/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center px-4 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-semibold rounded-lg shadow-lg"
             >
-              Agendar Demo
+              {t('nav.scheduleDemo')}
             </a>
           </div>
         </motion.div>
