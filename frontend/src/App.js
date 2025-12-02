@@ -42,6 +42,9 @@ function App() {
       {/* Features */}
       <Features />
       
+      {/* Benefits with Real Screenshots */}
+      <Benefits />
+      
       {/* Case Study with ROI Calculator */}
       <CaseStudy />
       
