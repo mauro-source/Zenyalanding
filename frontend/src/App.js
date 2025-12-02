@@ -44,8 +44,14 @@ function App() {
       {/* Features */}
       <Features />
       
+      {/* Advanced Features */}
+      <AdvancedFeatures />
+      
       {/* Benefits with Real Screenshots */}
       <Benefits />
+      
+      {/* Comparison */}
+      <Comparison />
       
       {/* Case Study with ROI Calculator */}
       <CaseStudy />
