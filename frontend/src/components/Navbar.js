@@ -54,34 +54,37 @@ export default function Navbar() {
                 onClick={() => scrollToSection('como-funciona')}
                 className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
               >
-                Como Funciona
+                {t('nav.howItWorks')}
               </button>
               <button
                 onClick={() => scrollToSection('resultados')}
                 className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
               >
-                Resultados
+                {t('nav.results')}
               </button>
               <button
                 onClick={() => scrollToSection('faq')}
                 className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
               >
-                FAQ
+                {t('nav.faq')}
               </button>
             </div>
 
-            {/* CTA Button */}
-            <motion.a
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2 }}
-              href="https://calendly.com/mauro-sparkleai/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden md:block px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-semibold rounded-lg shadow-lg shadow-cyan-500/30 hover:shadow-xl hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-300"
-            >
-              Agendar Demo
-            </motion.a>
+            {/* Language Selector + CTA */}
+            <div className="hidden md:flex items-center gap-4">
+              <LanguageSelector />
+              <motion.a
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+                href="https://calendly.com/mauro-sparkleai/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-semibold rounded-lg shadow-lg shadow-cyan-500/30 hover:shadow-xl hover:shadow-cyan-500/40 hover:-translate-y-0.5 transition-all duration-300"
+              >
+                {t('nav.scheduleDemo')}
+              </motion.a>
+            </div>
 
             {/* Mobile Menu Button */}
             <button
