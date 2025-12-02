@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { useTranslation } from '../contexts/LanguageContext';
 
 export default function Hero() {
+  const { t } = useTranslation();
+  
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-50/50 via-purple-50/30 to-white relative overflow-hidden pt-24 pb-12 px-4 sm:px-6 lg:px-8">
       {/* Animated Background Elements */}
