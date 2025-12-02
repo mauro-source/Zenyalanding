@@ -24,7 +24,7 @@ export default function CTA() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
-                  href="https://wa.me/5512992196495?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20ZENYA%20%F0%9F%A4%96"
+                  href="https://wa.me/5512992196495?text=Oi!%20Gostaria%20de%20falar%20com%20a%20ZENYA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-green-400 to-green-600 text-white font-bold rounded-xl shadow-2xl shadow-green-500/30 hover:shadow-green-500/50 hover:-translate-y-1 transition-all duration-300 text-base sm:text-lg"
