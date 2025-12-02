@@ -32,9 +32,10 @@ function App() {
   }, []);
 
   return (
-    <div className="App min-h-screen bg-white">
-      {/* Navigation */}
-      <Navbar />
+    <LanguageProvider>
+      <div className="App min-h-screen bg-white">
+        {/* Navigation */}
+        <Navbar />
       
       {/* Hero Section */}
       <Hero />
