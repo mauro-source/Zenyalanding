@@ -5,32 +5,32 @@ export default function Features() {
     {
       icon: '🧠',
       title: 'Atendimento Contextual',
-      description: 'Entende áudios, gírias e intenções. Conversa como gente, não como FAQ robótico.',
+      description: 'Entende áudios, gírias e intenções. Conversa como gente, não como FAQ robótico. Powered by GPT-5.',
     },
     {
       icon: '📊',
       title: 'Dashboard Exclusivo',
-      description: 'Métricas em tempo real: conversões, no-shows, horários de pico. Controle total.',
+      description: 'Métricas em tempo real: conversões, no-shows, horários de pico. Controle total, não caixa preta.',
     },
     {
       icon: '⚡',
-      title: 'Resposta em <5min',
-      description: 'Nunca mais perca cliente por demora. ZENYA responde instantaneamente, 24/7.',
+      title: 'Resposta Instantânea',
+      description: 'Nunca mais perca cliente por demora. ZENYA responde em <5min, 24 horas por dia, 7 dias por semana.',
     },
     {
-      icon: '🔒',
-      title: 'LGPD Compliant',
-      description: 'Seus dados protegidos e seguros. Total conformidade com legislação brasileira.',
+      icon: '🗓️',
+      title: 'Agenda Direto no Sistema',
+      description: 'Integra com Google Calendar, Outlook e seu CRM. Zero duplicidade, zero erro manual.',
     },
     {
       icon: '📞',
-      title: 'Entende Áudios + Voz',
-      description: 'Responde mensagens E atende ligações naturalmente, como uma pessoa real.',
+      title: 'WhatsApp + Voz',
+      description: 'Responde mensagens E atende ligações telefônicas naturalmente, como uma pessoa real.',
     },
     {
-      icon: '🎯',
-      title: 'Setup Transparente',
-      description: 'Portal de acompanhamento mostra progresso em tempo real. Zero no escuro.',
+      icon: '👥',
+      title: 'Libera Sua Equipe',
+      description: 'Enquanto ZENYA resolve o básico, sua equipe foca em casos complexos e atendimento especializado.',
     },
   ];
 
