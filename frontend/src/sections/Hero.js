@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from '../contexts/LanguageContext';
 
 export default function Hero() {
   return (
