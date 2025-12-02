@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function WhatsAppFloat() {
   const [isHovered, setIsHovered] = useState(false);
   const whatsappNumber = '5512992196495'; // Número do WhatsApp
-  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre a ZENYA 🤖');
+  const message = encodeURIComponent('Oi! Gostaria de saber mais sobre a ZENYA');
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
