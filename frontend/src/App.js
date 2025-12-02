@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
+import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import Hero from './sections/Hero';
