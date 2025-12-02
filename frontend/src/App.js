@@ -70,9 +70,10 @@ function App() {
       {/* Footer */}
       <Footer />
       
-      {/* WhatsApp Floating Button */}
-      <WhatsAppFloat />
-    </div>
+        {/* WhatsApp Floating Button */}
+        <WhatsAppFloat />
+      </div>
+    </LanguageProvider>
   );
 }
 
