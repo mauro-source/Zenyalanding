@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
           >
             <span className="inline-block px-4 py-2 bg-cyan-100/80 border border-cyan-300/50 rounded-full text-cyan-700 text-sm sm:text-base font-semibold mb-4 sm:mb-6">
-              ⚡ Powered by Sparkle AI
+              {t('hero.badge')}
             </span>
           </motion.div>
 
@@ -45,9 +45,9 @@ export default function Hero() {
             transition={{ delay: 0.3 }}
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-gray-900"
           >
-            Enquanto Você Dorme,{' '}
+            {t('hero.title1')}{' '}
             <span className="bg-gradient-to-r from-cyan-500 to-purple-600 bg-clip-text text-transparent">
-              ZENYA Atende, Agenda e Vende.
+              {t('hero.title2')}
             </span>
           </motion.h1>
 
@@ -57,9 +57,9 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-lg sm:text-xl lg:text-2xl text-gray-600 leading-relaxed"
           >
-            <strong className="text-gray-800">64% dos contatos chegam fora do horário comercial.</strong>
+            <strong className="text-gray-800">{t('hero.subtitle1')}</strong>
             <br className="hidden sm:block" />
-            ZENYA atende todos. Agenda direto no seu sistema. Zero duplicidade, zero erro.
+            {t('hero.subtitle2')}
           </motion.h2>
 
           {/* Feature Pills */}
