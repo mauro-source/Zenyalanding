@@ -4,6 +4,7 @@ import { useTranslation } from '../contexts/LanguageContext';
 import LanguageSelector from './LanguageSelector';
 
 export default function Navbar() {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
